@@ -9,12 +9,13 @@
 b = """Hello
    World
 """
-#print(b)
+print(b)
 c = "Hello \nWorld"
-#print(c)
-d = "I'm a teacher"
-e = 'I\'m a '
-print(d)
-
-directory=r'D:\Python\PythonHomeworks\Lesson-2\string_intro.py'
+print(c)
+e = "I'\tm a teacher"
+print(e)
+directory=r'D:\Python\PythonHomeworks\Lesson-2\string_intro.py' ## raw string
 print(directory)
+print(c[0])
+print(c[0:2])
+print(c[::-1])

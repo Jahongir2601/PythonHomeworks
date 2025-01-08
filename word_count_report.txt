@@ -1,0 +1,8 @@
+Total number of words: {total_words}
+5 most common words:
+the: 3
+cost: 3
+of: 3
+and: 3
+college: 2
+as: 2

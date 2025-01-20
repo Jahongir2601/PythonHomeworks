@@ -1,0 +1,1 @@
+{"00001": {"account_number": "00001", "name": "Jahongir", "balance": 10500.0}, "00002": {"account_number": "00002", "name": "Aziz", "balance": 5000.0}}

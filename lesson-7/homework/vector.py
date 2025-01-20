@@ -7,11 +7,11 @@ class Vector:
         return f"Vector({' ,'.join(map(str, self.components))})"
     def __str__(self):
         return f"({' ,'.join(map(str, self.components))})"
-    def __add__(self, other):
+    def __add__(self, other: "Vector"):
         self._check_dimension(other)
         addition = [a + b for a, b in zip(self.components, other.components)]
         return Vector(*addition)
-    def __sub__(self, other):
+    def __sub__(self, other: "Vector"):
         self._check_dimension(other)
         subtraction = [a - b for a, b in zip(self.components, other.components)]
         return Vector(*subtraction) 
@@ -22,7 +22,7 @@ class Vector:
         return Vector(*multipled)
     def __rmul__(self, scalar):
         return self.__mul__(scalar)
-    def dot(self, other):
+    def dot(self, other: "Vector"):
         self._check_dimension(other)
         return sum(a * b for a, b in zip(self.components, other.components))
     def length(self):
